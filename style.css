@@ -2,6 +2,7 @@ body {
 	background-color: #F6FCFC;
 	margin: 0;
 	padding: 0;
+
 }
 
 .bottommenu {
@@ -12,13 +13,15 @@ body {
 	align-items: center;
 }
 
-.menuitem1 {
+.menuitem {
 	text-align: center;
 }
 
-.menuitem1:hover {
+.menuitem:hover {
 	cursor: pointer;
 }
-.menuitem1 p{
+.menuitem p {
 	margin-top: 3px;
+	font-family: 'roboto';
+	font-weight: 100;
 }
