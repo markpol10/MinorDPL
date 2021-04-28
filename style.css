@@ -15,3 +15,6 @@ body {
 .menuitem1 {
 	text-align: center;
 }
+.menuitem1 p{
+	margin-top: 3px;
+}
