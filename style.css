@@ -2,6 +2,7 @@ body {
 	background-color: #F6FCFC;
 	margin: 0;
 	padding: 0;
+
 }
 
 .bottommenu {
@@ -21,4 +22,6 @@ body {
 }
 .menuitem p {
 	margin-top: 3px;
+	font-family: 'roboto';
+	font-weight: 100;
 }
