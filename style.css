@@ -1,3 +1,13 @@
 body {
 	background-color: #F6FCFC;
+	margin: 0;
+	padding: 0;
+}
+
+.bottommenu {
+	height: 67px;
+	background-color: red;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
 }
