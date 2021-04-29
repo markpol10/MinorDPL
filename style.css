@@ -3,17 +3,24 @@ body {
 	margin: 0;
 	padding: 0;
 
+
 }
 
 
 
 /* Login pagina */
 
+.login-text-top {
+    margin-left: 10vw;
+    margin-top: 100px;
+}
+
 .login-circles {
     width: 100vw;
     height: 55px;
     display: flex;
     justify-content: center;
+    margin-top: 200px;
 }
 
 .circle-container {
@@ -31,6 +38,16 @@ body {
     background-color: white;
 }
 
+.login-text {
+    width: 100vw;
+    text-align: center;
+    color: #19ACFF;
+}
+
+.login-text p{
+    font-size: 25px;
+    font-family: 'Roboto';
+}
 
 
 /* Homescreen */
