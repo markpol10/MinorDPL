@@ -12,7 +12,7 @@ body {
 
 .login-text-top {
     margin-left: 10vw;
-    margin-top: 100px;
+    margin-top: 150px;
 }
 
 .login-circles {
@@ -25,16 +25,16 @@ body {
 
 .circle-container {
     display: flex;
-    width: 200px;
+    width: 300px;
     justify-content: space-around;
     align-items: center;
 }
 
 .circle {
-    width: 25px;
-    height: 25px;
+    width: 40px;
+    height: 40px;
     border: 1px solid black;
-    border-radius: 25px;
+    border-radius: 40px;
     background-color: white;
 }
 
