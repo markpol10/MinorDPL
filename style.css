@@ -65,6 +65,9 @@ body {
 
 .navbarOnderLink:hover {
     background-color: #eeeeee;
+    text-decoration: none;
+    color: #444444;
+
 }
 
 .navbarOnderActive {
