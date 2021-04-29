@@ -6,7 +6,31 @@ body {
 }
 
 
+
 /* Login pagina */
+
+.login-circles {
+    width: 100vw;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+}
+
+.circle-container {
+    display: flex;
+    width: 200px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.circle {
+    width: 25px;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 25px;
+    background-color: white;
+}
+
 
 
 /* Homescreen */
