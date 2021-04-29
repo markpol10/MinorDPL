@@ -11,21 +11,24 @@ body {
 
 /* Homescreen */
 .panel{
-    color:#3BB13B;
+    font-family: Roboto;
+    font-size: 20px;
+    color: #444444;
 }
 
 .panel {
     display: inline-block;
-    background: #ffffff;
+    background: #e5e5e5 ;
     position:fixed;
     top: 10%;
     left: 1%;
-    box-shadow:0px 0px 2px 2px #C9C9C9;
-    border-radius: 15px;
+    box-shadow:0px 0px 2px 2px #bbbb;
+    border-radius: 10px;
 }
 .panel1 {
     min-width: 0%;
     width: 97%;
+    height: 50%;
 }
 
 body {
