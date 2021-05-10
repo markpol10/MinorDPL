@@ -7,7 +7,23 @@ body {
 }
 
 
+.testrow {
+  height: 100px;
+  width: 100%;
+  background-color: red;
+}
 
+.testcol {
+  height: 100%;
+  width: 100%;
+  background-color: blue;
+}
+
+.testcol1 {
+  height: 100%;
+  width: 100%;
+  background-color: green;
+}
 /* Login pagina */
 
 .login-text-top {
