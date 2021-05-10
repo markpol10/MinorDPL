@@ -19,6 +19,9 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
+<!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
 </head>
 
 <body style="background-color: #F6FCFC;">
@@ -26,12 +29,31 @@
 
 <div class="messages-text-top">
 		
-	<p style="color: #369637; font-size: 50px; font-weight: 600;">To do list</p>
+	<p style="color: #369637; font-size: 50px; font-weight: 600;">Messages</p>
 
 </div>
 
+<div class="messagesEmails">
 	
+	<div class="messages" id="messages">
+		<h2 id="testt">Messages</h2>
+		<hr id="testhr" class="inactive">
+	</div>
 
+	<div class="emails" id="emails">
+		<h2>Emails</h2>
+		<hr id="testhr2" class="active">
+	</div>
+
+</div>
+	
+<script type="text/javascript">
+	$('#emails').click(function() {
+ 	$('#testhr').addClass('active');
+ 	$('#testhr2').addClass('inactive');
+	});
+
+</script>
 
 
 <nav class="navbarOnder">

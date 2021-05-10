@@ -4,6 +4,35 @@
     justify-content: center;
 }
 
+.messagesEmails {
+    display: flex; 
+    justify-content: space-around;
+}
+
+.emails:hover {
+    cursor: pointer;
+    color: #19ACFF;
+}
+
+.messages:hover {
+    cursor: pointer;
+    color: #19ACFF;
+}
+
+.active {
+    height: 5px; 
+    background-color: #369637; 
+    border-radius: 10px; 
+    display: none;
+    height: 0px;
+}
+
+.inactive {
+    height: 5px; 
+    background-color: #369637; 
+    border-radius: 10px; 
+    display: block;
+}
 
 /* Bottom menu */
 
