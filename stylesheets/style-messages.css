@@ -35,24 +35,33 @@
 }
 
 .parentDiv {
-  border: 1px solid black;
-  padding: 10px;
-  width: 180px;
-  margin: 5px;
-  display: relative;
+    display: relative;
+    display: flex;
+    justify-content:space-around;
 }
 
 
 .childDiv1 {
-  border: 1px solid blue;
-  height: 50px;
-  margin: 10px;
+
 }
 
 .childDiv2 {
-  border: 1px solid blue;
-  height: 50px;
-  margin: 10px;
+
+}
+
+.childDiv1:hover {
+    cursor: pointer;
+    color: #19ACFF;
+}
+
+.childDiv2:hover {
+    cursor: pointer;
+    color: #19ACFF;
+}
+
+
+.testhr2 {
+
 }
 /* Bottom menu */
 

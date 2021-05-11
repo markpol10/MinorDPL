@@ -22,6 +22,8 @@
 <!-- jquery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 </head>
 
 <body style="background-color: #F6FCFC;">
@@ -32,50 +34,15 @@
 	<p style="color: #369637; font-size: 50px; font-weight: 600;">Messages</p>
 
 </div>
-
-<div class="messagesEmails">
 	
-	<div class="messages" id="messages">
-		<h2 id="testt">Messages</h2>
-		<hr id="testhr1">
-	</div>
-
-	<div class="emails" id="emails">
-		<h2>Emails</h2>
-		<hr id="testhr2" style="display: none;">
-	</div>
-
-</div>
-
-<script type="text/javascript">
-
-	$('.messages').click(function() {
-
-	 	$(this).parent().find('.testhr2').css('display', 'none');
-	 	$(this).parent().find('.testhr1').css('display', 'block');
-	 	
-
-});
-
-	$('.emails').click(function() {
-
-	 	$(this).parent().find('.testhr1').css('display', 'none');
-	 	$(this).parent().find('.testhr2').css('display', 'block');
-	 	
-
-});
-
-</script>
-	
-<div id="divParent2" class="parentDiv">
-  Group 2
+<div id="divParent2" class="parentDiv mt-5">
   <div id="child1" class="childDiv1">
-    Child 1
-    <hr class="testhr1">
+    <h2>Messages</h2>
+    <hr class="testhr1" style="height: 4px; background-color: #369637; border-radius: 4px;">
   </div>
   <div id="child2" class="childDiv2">
-    Child 2
-    <hr class="testhr2" style="display: none;">
+    <h2>Emails</h2>
+    <hr class="testhr2" style="display: none; height: 4px; background-color: #369637; border-radius: 4px;">
   </div>
 </div>
 
