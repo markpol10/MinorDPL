@@ -2,8 +2,6 @@ body {
 	background-color: #F6FCFC;
 	margin: 0;
 	padding: 0;
-
-
 }
 
 
@@ -70,34 +68,85 @@ body {
 }
 
 /* Blokken voor bootstrap panels */
+.panel-body-tekst-rechts{
+  float: right;
+  text-align: right;
+  color: black;
+}
+
+.profielfoto{
+  float: left;
+}
+
+.panel-body-grafiek{
+  padding: 5%;
+}
+
+.dot1 {
+  height: 100px;
+  width: 100px;
+  background-color: #369637;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.panel-tekst-gewoon{
+  color: black;
+}
+
+.panel-title{
+  color: #369637;
+}
+
+.tekst-grafiek{
+  text-align: center;
+  padding-top: 35%;
+  color: white;
+}
+
+.tekst-info1{
+  text-align: right;
+  float: right;
+  color: black;
+}
+
+.tekst-info2{
+  text-align: left;
+  float: left;
+  color: black;
+}
+
 .row{
   position: absolute;
   right: 0px;
-  
-  border: 3px solid #73AD21;
-  padding: 10px;
+  padding-top: 1%;
+  padding-left: 1%;
 }
 
 .red-box {
-  background-color: red;
+  border: 2px solid lightblue;
+  background-color: #eeeeee;
   color: white;
   border-radius: 5px;
 }
 
 .green-box {
-  background-color: green;
+  border: 2px solid lightblue;
+  background-color: #eeeeee;
   color: white;
   border-radius: 5px;
 }
 
 .blue-box {
-  background-color: blue;
+  border: 2px solid lightblue;
+  background-color: #eeeeee;
   color: white;
   border-radius: 5px;
 }
 
 .orange-box {
-  background-color: orange;
+  border: 2px solid lightblue;
+  background-color: #eeeeee;
   color: white;
   border-radius: 5px;
 }
