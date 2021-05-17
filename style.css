@@ -70,6 +70,14 @@ body {
 }
 
 /* Blokken voor bootstrap panels */
+.row{
+  position: absolute;
+  right: 0px;
+  
+  border: 3px solid #73AD21;
+  padding: 10px;
+}
+
 .red-box {
   background-color: red;
   color: white;
