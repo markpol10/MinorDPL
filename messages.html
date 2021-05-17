@@ -37,11 +37,11 @@
 	
 <div id="divParent2" class="parentDiv mt-5">
   <div id="child1" class="childDiv1">
-    <h2>Messages</h2>
+    <h2 style="color: #369637;" class="mesgtxt">Messages</h2>
     <hr class="testhr1" style="height: 4px; background-color: #369637; border-radius: 4px;">
   </div>
   <div id="child2" class="childDiv2">
-    <h2>Emails</h2>
+    <h2 class="msgttxt2">Emails</h2>
     <hr class="testhr2" style="display: none; height: 4px; background-color: #369637; border-radius: 4px;">
   </div>
 </div>
@@ -52,6 +52,9 @@
 
 	 	$(this).parent().find('.testhr2').css('display', 'none');
 	 	$(this).parent().find('.testhr1').css('display', 'block');
+	 	$(this).parent().find('.msgttxt2').css('color', 'black');
+	 	$(this).parent().find('.mesgtxt').css('color', 'green');
+	 	
 	 	
 
 });
@@ -60,34 +63,59 @@
 
 	 	$(this).parent().find('.testhr1').css('display', 'none');
 	 	$(this).parent().find('.testhr2').css('display', 'block');
+	 	$(this).parent().find('.mesgtxt').css('color', 'black');
+	 	$(this).parent().find('.msgttxt2').css('color', 'green');
 	 	
 
 });
 
 </script>
 
-  <div class="row justify-content-around messagescontent">
-    <div class="col-lg-4 content mt-5 mr-5 ml-5" style="display: flex; justify-content: space-between; align-items: center;">
-    	<i class="fas fa-envelope-open fa-2x"></i>
+  <div class="row justify-content-around messagescontent mt-5 ">
+  	<p class="col-lg-4 mr-5 ml-5" style="padding: 0; color: #369637;">Today</p>
+    <div class="col-lg-4 content mr-5 ml-5" style="display: flex; justify-content: space-between; align-items: center;">
+    	<img src="icons/kpnlogo.jpg" class="kpnlogo">
     	<div> 
-    		<h3>Message</h3>
-    		<p>You have a new reaction on yo… <br>
+    		<h3 style="font-size: 16px; margin-left: -15px; color: #369637; font-weight: 500;">KPN - Forum</h3>
+    		<p style="font-size: 10px; margin-left: -15px;">You have a new reaction on yo… <br>
     		Hello, one person answered your p… </p>
     		
      </div>
     	
    </div>
-    <div class="col-lg-4 content mt-5 mr-5 ml-5" style="display: flex; justify-content: space-between; align-items: center;">
-    	<i class="fas fa-envelope-open fa-2x"></i>
+
+   <p class="col-lg-4 mr-5 ml-5 mt-5" style="padding: 0; color: #369637;">This week</p>
+  <div class="col-lg-4 content  mr-5 ml-5" style="display: flex; justify-content: space-between; align-items: center;">
+
+    	<img src="icons/kpnlogo.jpg" class="kpnlogo">
     	<div> 
-    		<h3>Message</h3>
-    		<p>You have a new reaction on yo… <br>
+    		<h3 style="font-size: 16px; color: #369637; font-weight: 500;">KPN</h3>
+    		<p style="font-size: 10px; ">Could you use a new plan?<br>
+    		We've noticed that you have increa...</p>
+    		
+     </div>			
+  </div>
+  <div class="col-lg-4 content mt-5 mr-5 ml-5" style="display: flex; justify-content: space-between; align-items: center;">
+
+    	<img src="icons/kpnlogo.jpg" class="kpnlogo">
+    	<div> 
+    		<h3 style="font-size: 16px; margin-left: -15px; color: #369637; font-weight: 500; ">KPN - Help</h3>
+    		<p style="font-size: 10px; margin-left: -15px;">You have a new reaction on yo… <br>
     		Hello, one person answered your p… </p>
     		
-     </div>
+     </div>			
   </div>
 
+  <div class="col-lg-4 content mt-5 mr-5 ml-5" style="display: flex; justify-content: space-between; align-items: center;">
 
+    	<img src="icons/kpnlogo.jpg" class="kpnlogo">
+    	<div> 
+    		<h3 style="font-size: 16px; margin-left: -15px; color: #369637; font-weight: 500;">KPN</h3>
+    		<p style="font-size: 10px; margin-left: -15px;">You have a new reaction on yo… <br>
+    		Hello, one person answered your p… </p>
+    		
+     </div>			
+  </div>
 
 <div style="height: 1000px; width: 100%;"></div>
 

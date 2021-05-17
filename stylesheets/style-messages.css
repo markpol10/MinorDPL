@@ -48,12 +48,17 @@
 
 .childDiv2:hover {
     cursor: pointer;
-    color: #19ACFF;
+
 }
 
 
 .messagescontent {
     height: 125px;
+}
+
+.kpnlogo {
+    height: 25%;
+    width: 25%;
 }
 
 .content {
