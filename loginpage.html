@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>KPN app</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-auth.js"></script>
+
+    <script src="form.js"></script>
+</head>
+<body>
+
+    <h1>Inlogformulier</h1>
+
+    <div id="formContainer">
+        <div id="header"></div>
+        <input type="email" placeholder="email" id="email">    
+        <input type="password" placeholder="password" id="password">  
+
+        <button onclick="signUp()" id="signUp"> Sign Up </button>  
+        <button onclick="signIn()" id="signIn"> Sign In </button> 
+        <button onclick="signOut()" id="signOut"> Sign Out </button> 
+    </div>
+
+<nav class="navbarOnder">
+	<a href="/todo.html" class="navbarOnderLink">
+		<i class="fas fa-list-ul"></i>
+	  <span class="navbarOnderTekst">To Do</span>
+	</a>
+	<a href="/messages.html" class="navbarOnderLink">
+		<i class="far fa-envelope"></i>
+	  <span class="navbarOnderTekst">Messages</span>
+	</a>
+	<a href="/index.html" class="navbarOnderLink navbarOnderActive">
+		<i class="fas fa-home"></i>
+	  <span class="nav__text">Home</span>
+	</a>
+	<a href="/overview.html" class="navbarOnderLink">
+		<i class="far fa-chart-bar"></i>
+	  <span class="navbarOnderTekst">Overview</span>
+	</a>
+	<a href="/profile.html" class="navbarOnderLink">
+		<i class="far fa-user"></i>
+	  <span class="navbarOnderTekst">Profile</span>
+	</a>
+ </nav>
+
+
+
+</body>
+
+
+
+</html>
