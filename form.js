@@ -31,14 +31,14 @@
         const promise = auth.signInWithEmailAndPassword(email.value, password.value);
         promise.catch(e => alert(e.message));
 
-        alert("signed In" + email.value);
+        alert("Ingelogd" + email.value);
 
     }
 
     function signOut(){
 
         auth.signOut();
-        alert("Signed Out")
+        alert("Uitgelogd")
     }
 
     auth.onAuthStateChanged(function(user){
@@ -46,11 +46,11 @@
         if(user){
 
             var email = user.email;
-            alert("Active user " + email);
+            alert("Actieve gebruiker " + email);
         }
         else{
 
-            alert("No active user");
+            alert("Geen actieve gebruiker");
         
         }
 
