@@ -1,44 +1,115 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>KPN app</title>
-    <script src="https://kit.fontawesome.com/356e213cd3.js" crossorigin="anonymous"></script>
-	<link rel="stylesheet" type="text/css" href="style.css">
-    <!-- The core Firebase JS SDK is always required and must be listed first -->
-    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-auth.js"></script>
+  <title> Profiel </title>
 
-    <script src="logOut.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+<!-- Fontawesome & fonts -->
+  <script src="https://kit.fontawesome.com/356e213cd3.js" crossorigin="anonymous"></script>
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">  
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<!-- Bootstap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 </head>
-<body>
 
-    <h1>Tijdelijk alleen voor uitloggen</h1>
 
-    <div id="formContainer">
-        <button onclick="signOut()" id="signOut"> Log uit </button> 
+<body style="background-color: #F6FCFC;">
+
+
+<div class="messages-text-top">
+  <p style="color: #369637; font-size: 50px; font-weight: 600;"> Profiel </p>
+</div>
+
+
+
+  <div class="row">
+ 
+    <div class="profielsettings p-4">
+      
+        <img src="icons/profielfoto.png" style="height: 75px;">
+        <p style="font-size: 13px; float: right; margin: 0; text-align: left;"> <span style="font-weight: bold; font-size: 15px;"> John Doe </span> <br>
+          +3123123121 <br>
+          <span style="text-decoration: underline; cursor: pointer"> Click here to view your plan </span> 
+        </p>
+
+    </div>
+ 
+  </div>
+
+
+<div class="containter">
+  
+  <div class="row">
+
+    <div class="col-sm-4 mt-3 contentsettings" style="padding: 0;" >
+      <div class="settingsvakje"> <i class="fas fa-shield-alt fa-2x" style="color: #303030"></i> </div>
+      <div class="settingstext ml-3"> <p> Order history </p> </div>
     </div>
 
-<nav class="navbarOnder">
-	<a href="/todo.html" class="navbarOnderLink">
-		<i class="fas fa-list-ul"></i>
-	  <span class="navbarOnderTekst">To Do</span>
-	</a>
-	<a href="/messages.html" class="navbarOnderLink">
-		<i class="far fa-envelope"></i>
-	  <span class="navbarOnderTekst">Messages</span>
-	</a>
-	<a href="/index.html" class="navbarOnderLink navbarOnderActive">
-		<i class="fas fa-home"></i>
-	  <span class="nav__text">Home</span>
-	</a>
-	<a href="/overview.html" class="navbarOnderLink">
-		<i class="far fa-chart-bar"></i>
-	  <span class="navbarOnderTekst">Overview</span>
-	</a>
-	<a href="/profile.html" class="navbarOnderLink">
-		<i class="far fa-user"></i>
-	  <span class="navbarOnderTekst">Profile</span>
-	</a>
+    <div class="col-sm-4 mt-3 contentsettings" style="padding: 0;">
+      <div class="settingsvakje"> <i class="fas fa-fingerprint fa-2x" style="color: #383838"></i> </div>
+      <div class="settingstext ml-3"> <p> Invoices </p> </div>
+    </div>
+
+    <div class="col-sm-4 mt-3 contentsettings" style="padding: 0;">
+      <div class="settingsvakje"> <i class="fas fa-search-location fa-2x" style="color: #383838"></i> </div>
+      <div class="settingstext ml-3"> <p> Subscriptions </p> </div>
+    </div>
+
+  </div>
+
+  <div class="row">
+    <div class="col-sm-4 mt-3 contentsettings" style="padding: 0;">
+      <div class="settingsvakje"> <i class="fas fa-network-wired fa-2x" style="color: #383838"></i> </div>
+      <div class="settingstext ml-3"> <p> Help </p> </div>
+    </div>
+    <div class="col-sm-4 mt-3 contentsettings" style="padding: 0;">
+      <div class="settingsvakje"> <i class="fas fa-user-cog  fa-2x" style="color: #383838"></i> </div>
+      <div class="settingstext ml-3"> <p> Settings </p> </div>
+    </div>
+    <div class="col-sm-4 mt-3 contentsettings" style="padding: 0; margin-bottom: 150px;">
+      <div class="settingsvakje"> <i class="fas fa-globe-europe fa-2x" style="color: #383838"></i> </div>
+      <div class="settingstext ml-3"> <p> Logout </p> </div>
+    </div>
+  </div>
+
+</div>
+
+
+
+
+
+
+<nav class="navbarOnder " >
+  <a href="todo.html" class="navbarOnderLink">
+    <i class="fas fa-list-ul"></i>
+    <span class="navbarOnderTekst">To Do</span>
+  </a>
+  <a href="messages.html" class="navbarOnderLink">
+    <i class="far fa-envelope"></i>
+    <span class="navbarOnderTekst">Messages</span>
+  </a>
+  <a href="index.html" class="navbarOnderLink navbarOnderActive">
+    <i class="fas fa-home"></i>
+    <span class="nav__text">Home</span>
+  </a>
+  <a href="overview.html" class="navbarOnderLink">
+    <i class="far fa-chart-bar"></i>
+    <span class="navbarOnderTekst">Overview</span>
+  </a>
+  <a href="profile.html" class="navbarOnderLink">
+    <i class="far fa-user"></i>
+    <span class="navbarOnderTekst">Profile</span>
+  </a>
  </nav>
 
 

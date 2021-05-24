@@ -87,6 +87,78 @@ body {
   box-shadow: 0px 6px 12px -8px rgba(0,0,0,0.75);
 }
 
+.contentsettings {
+  border: 1px solid #e3e3e3;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 6px 12px -8px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 6px 12px -8px rgba(0,0,0,0.75);
+  box-shadow: 0px 6px 12px -8px rgba(0,0,0,0.75);
+  display: flex;
+  align-items: center;
+  height: 250px;
+}
+
+.profielsettings {
+  border: 1px solid #e3e3e3;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 6px 12px -8px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 6px 12px -8px rgba(0,0,0,0.75);
+  box-shadow: 0px 6px 12px -8px rgba(0,0,0,0.75);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 250px;
+  width: 100%;
+}
+
+.settingstext p{
+  font-weight: bold; 
+  margin: 0;
+  font-size: 18;
+}
+
+.settingstext {
+  margin-bottom: 3px;
+}
+
+.settingsvakje {
+  height: 100%; 
+  width: 25%; 
+  background-color: #e3e3e3; 
+  border-radius: 5px; 
+  margin: 0; 
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 575px) {
+.contentsettings {
+  border: 1px solid #e3e3e3;
+  height: 75px; 
+  margin-right: 55px;
+  margin-left: 55px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 6px 12px -8px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 6px 12px -8px rgba(0,0,0,0.75);
+  box-shadow: 0px 6px 12px -8px rgba(0,0,0,0.75);
+}
+
+.profielsettings {
+  border: 1px solid #e3e3e3;
+  height: 125px; 
+  margin-right: 40px;
+  margin-left: 40px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 6px 12px -8px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 6px 12px -8px rgba(0,0,0,0.75);
+  box-shadow: 0px 6px 12px -8px rgba(0,0,0,0.75);
+}
+
+}
+
 .content2 {
   height: 250px;
   margin-top: 6vh;
