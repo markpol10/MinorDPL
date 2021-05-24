@@ -305,6 +305,10 @@ body {
     font-size: 5px;
 }
 
+.kpnlogo {
+  width: 50px;
+}
+
 @media (min-width: 700px) {
     .leading {
        display: flex;
