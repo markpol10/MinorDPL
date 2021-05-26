@@ -1,0 +1,90 @@
+
+
+
+
+@media only screen and (max-width: 575px) {
+
+.menubalk {
+	height: 10vh;
+	width: 100vw;
+	background-color: white;
+	margin-top: 50vh;
+	display: flex;
+}
+
+.menuitem {
+	width: 20vw;
+	height: 10vh;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+
+.menuitem p{
+	color: #444444;
+	font-size: 12px;
+}
+
+.menuitem i{
+	color: #444444;
+}
+
+.menubalk a:hover {
+	text-decoration: none;
+	background-color: red;
+}
+
+
+}
+
+
+/* --------------------------------------------------------------------------- */
+
+@media only screen and (min-width: 576px) {
+
+.menubalk {
+	height: 10vh;
+	width: 100vw;
+	background-color: white;
+	margin-top: 50vh;
+
+	display: flex;
+}
+
+.menuitem {
+	width: 20vw;
+	height: 10vh;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.menuitem p{
+	color: #444444;
+	font-size: 15px;
+	margin-top: 2px;
+}
+
+.menuitem i{
+	color: #444444;
+	font-size: 22px;
+}
+
+.menubalk a:hover {
+	text-decoration: none;
+	background-color: #eeeeee;
+}
+
+}
+
+
+
+
+
+
+   
