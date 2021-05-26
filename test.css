@@ -8,7 +8,6 @@
 	height: 10vh;
 	width: 100vw;
 	background-color: white;
-	margin-top: 50vh;
 	display: flex;
 }
 
@@ -49,9 +48,9 @@
 	height: 10vh;
 	width: 100vw;
 	background-color: white;
-	margin-top: 50vh;
-
 	display: flex;
+	position: fixed;
+	bottom: 0;	
 }
 
 .menuitem {

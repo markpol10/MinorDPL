@@ -243,67 +243,97 @@ img.KPNLogo {
 
 
 
-/* Bottom menu */
 
-.navbarOnder {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    height: 10%;
-    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
-    background-color: #ffffff;
-    display: flex;
-    overflow-x: auto;
+
+@media only screen and (max-width: 575px) {
+
+.menubalk {
+  height: 10vh;
+  width: 100vw;
+  background-color: white;
+  margin-top: 50vh;
+  display: flex;
+  position: fixed;
+  bottom: 0;
 }
 
-.navbarOnderLink {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    flex-grow: 1;
-    min-width: 50px;
-    overflow: hidden;
-    white-space: nowrap;
-    font-family: Roboto;
-    font-size: 20px;
-    color: #444444;
-    text-decoration: none;
-    -webkit-tap-highlight-color: transparent;
-    transition: background-color 0.1s ease-in-out;
+.menuitem {
+  width: 20vw;
+  height: 10vh;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-.navbarOnderLink:hover {
-    background-color: #eeeeee;
-    text-decoration: none;
-    color: #444444;
+
+.menuitem p{
+  color: #444444;
+  font-size: 12px;
+}
+
+.menuitem i{
+  color: #444444;
+}
+
+.menubalk a:hover {
+  text-decoration: none;
+  background-color: red;
+}
+
 
 }
 
-.navbarOnderActive {
-    color: #3BB13B;
-} 
 
-.navbarIcon {
-    font-size: 5px;
+/* --------------------------------------------------------------------------- */
+
+@media only screen and (min-width: 576px) {
+
+.menubalk {
+  height: 10vh;
+  width: 100vw;
+  background-color: white;
+  margin-top: 50vh;
+  position: fixed;
+  bottom: 0;
+  display: flex;
 }
 
-@media (min-width: 700px) {
-    .leading {
-       display: flex;
-       align-items: center;
-     }
-   }
+.menuitem {
+  width: 20vw;
+  height: 10vh;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 
-   @media (max-width: 450px) {
-    .navbarOnderLink {
-       width: 10%;
-     }
-     .navbarIcon {
-       width: 10%;
-     }
+.menuitem p{
+  color: #444444;
+  font-size: 15px;
+  margin-top: 2px;
+}
 
-   }
+.menuitem i{
+  color: #444444;
+  font-size: 22px;
+}
+
+.menubalk a:hover {
+  text-decoration: none;
+  background-color: #eeeeee;
+}
+
+}
+
+
+
+
+
+
+   
    
    
    /* Grid styles -------------------------------------------------*/
