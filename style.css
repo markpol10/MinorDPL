@@ -4,6 +4,20 @@ body {
 	padding: 0;
 }
 
+.contentContainer {
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.abc {
+  height: 100%;
+  background-color: green;
+  margin-top: 15px; 
+}
+
+
 
 .messages-text-top {
     margin-top: 50px;
@@ -149,7 +163,48 @@ img.KPNLogo {
   width: 250px;
 }
 
+@media only screen and (min-width: 575px) {
 
+.contentKlein {
+  display: none;
+}
+
+.infoGroot {
+  display: flex;
+  justify-content: space-around;
+}
+
+.bannerGroot {
+  border: 1px solid #e3e3e3;
+  border-radius: 5px;
+  width: 350px;
+  justify-content: space-around;
+  display: flex;
+  -webkit-box-shadow: 0px 6px 12px -8px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 6px 12px -8px rgba(0,0,0,0.75);
+  box-shadow: 0px 6px 12px -8px rgba(0,0,0,0.75);
+}
+
+.homeContent {
+  height: 300px;
+  width: 22%;
+  border: 1px solid #e3e3e3;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 6px 12px -8px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 6px 12px -8px rgba(0,0,0,0.75);
+  box-shadow: 0px 6px 12px -8px rgba(0,0,0,0.75);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 10px;
+}
+
+.bottomContent {
+  display: flex;
+  justify-content: space-around;
+}
+
+}
 
 @media only screen and (max-width: 575px) {
 .contentsettings {
@@ -179,12 +234,17 @@ img.KPNLogo {
   width: 150px;
 }
 
+.contentGroot {
+  display: none;
+}
 
 }
 
+
+
 .content2 {
   height: 250px;
-  margin-top: 6vh;
+  margin-top: 3vh;
   border: 1px solid #e3e3e3;
   border-radius: 5px;
   -webkit-box-shadow: 0px 6px 12px -8px rgba(0,0,0,0.75);
@@ -251,7 +311,6 @@ img.KPNLogo {
   height: 10vh;
   width: 100vw;
   background-color: white;
-  margin-top: 50vh;
   display: flex;
   position: fixed;
   bottom: 0;
@@ -294,7 +353,6 @@ img.KPNLogo {
   height: 10vh;
   width: 100vw;
   background-color: white;
-  margin-top: 50vh;
   position: fixed;
   bottom: 0;
   display: flex;
@@ -393,7 +451,8 @@ input[type=text], input[type=password] {
 }
 
 button {
-  background-color: #04AA6D;
+  background: rgb(4,170,109);
+background: linear-gradient(90deg, rgba(4,170,109,1) 0%, rgba(85,183,65,1) 63%, rgba(149,193,31,1) 100%);
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -408,9 +467,10 @@ button:hover {
 }
 
 .imgcontainer {
-  text-align: center;
   margin: 24px 0 12px 0;
+  margin-top: 40px;
 }
+
 
 #formContainer {
   display: flex;
@@ -424,3 +484,13 @@ button:hover {
 .container {
   padding: 16px;
 }
+
+
+.backgroundimg {
+  position: absolute;
+  width: 150px;
+  margin-left: 60vw;
+  margin-top: -20px;
+  z-index: -1;
+}
+
