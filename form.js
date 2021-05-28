@@ -47,7 +47,7 @@
 
             var email = user.email;
             alert("Actieve gebruiker " + email);
-            window.location.href = "/index.html";
+            window.location.href = "index.html";
         }
         else{
 

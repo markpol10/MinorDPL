@@ -488,7 +488,7 @@ button:hover {
 
 .backgroundimg {
   position: absolute;
-  width: 150px;
+  width: 120px;
   margin-left: 60vw;
   margin-top: -20px;
   z-index: -1;
