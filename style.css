@@ -495,3 +495,66 @@ button:hover {
   z-index: -1;
 }
 
+
+
+/* Bestelgeschiedenis pagina */
+
+@media only screen and (max-width: 575px) {
+  .productcontent {
+    border: 1px solid #e3e3e3;
+    height: 75px; 
+    margin-right: 55px;
+    margin-left: 55px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 6px 12px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 6px 12px -8px rgba(0,0,0,0.75);
+    box-shadow: 0px 6px 12px -8px rgba(0,0,0,0.75);
+  }
+
+.productcontent {
+  border: 1px solid #e3e3e3;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 6px 12px -8px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 6px 12px -8px rgba(0,0,0,0.75);
+  box-shadow: 0px 6px 12px -8px rgba(0,0,0,0.75);
+  display: flex;
+  align-items: center;
+  height: 250px;
+  cursor: pointer;
+}
+
+.producttexttitel p{
+  font-weight: bold; 
+  margin: 0;
+  font-size: 18;
+}
+
+.producttexttitel {
+  margin-bottom: 200px;
+  margin-top: 80px;
+}
+
+/*
+.producttext p{
+  margin: 0;
+  font-size: 18;
+}
+
+.producttext {
+  margin-bottom: 3px;
+}
+*/
+
+.product {
+  height: 100%; 
+  width: 25%; 
+  background-color: #e3e3e3; 
+  border-radius: 5px; 
+  margin: 0; 
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+}
