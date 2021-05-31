@@ -31,16 +31,22 @@
 
 
 
-<div class="container">
+
   <div class="row">
     
-    <div class="col-md content2"></div>
-    <div class="col-md content2"></div>
+    <div class="col-md contentsettings" style="padding: 0;">
+      <div class="settingsvakje"> <i class="fas fa-wifi fa-2x" style="color: #383838"></i> </div>
+      <div class="settingstext ml-3"> <p> WIFI </p> </div>
+    </div>
+    <div class="col-md contentsettings mt-3" style="padding: 0;">
+      <div class="settingsvakje"> <i class="fab fa-bluetooth-b fa-2x" style="color: #383838"></i> </div>
+      <div class="settingstext ml-3"> <p> Bluetooth </p> </div>
+    </div>
 
   </div>
-</div>
 
-<div class="container">
+
+<div class="container mt-3">
   <div class="row">
     <div class="col-md content2" style="padding: 0; border: 0; 
     -webkit-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0);
@@ -53,18 +59,49 @@
 
   
 
-<div class="container">
-  <div class="row">
 
-    <div class="col-md content2" style="margin-top: 0;"></div>
-    <div class="col-md content2"></div>
-    <div class="col-md content2" style="margin-bottom: 100px;"></div>
+<div class="row">
 
+  <div class="col-md contentsettings mt-3" style="padding: 0;">
+    <div class="settingsvakje"> <i class="fas fa-desktop fa-2x" style="color: #383838"></i> </div>
+    <div class="settingstext ml-3"> <p> Voeg toe  <span style="margin-left: 10vw; color: #369637; font-size: 18px;"> On <i class="fas fa-chevron-right" style="color: black; margin-left: 8px; font-size: 18px;"></i> </span> </p> </div>
   </div>
+
+  <div class="col-md contentsettings mt-3" style="padding: 0;">
+    <div class="settingsvakje"> <i class="fas fa-laptop-medical fa-2x" style="color: #383838"></i> </div>
+    <div class="settingstext ml-3">
+      <p> Voeg toe  <span style="margin-left: 10vw; color: #f82a2a; font-size: 18px;"> Off <i class="fas fa-chevron-right" style="color: black; margin-left: 8px; font-size: 18px;"></i> </span> </p>  
+    </div>
+  </div>
+
+  <div class="col-md contentsettings mt-3" style="margin-bottom: 100px; padding: 0;" id="">
+    <div class="settingsvakje"> <i class="fas fa-laptop-medical fa-2x" style="color: #383838"></i> </div>
+    <div class="settingstext ml-3"> <p> Voeg toe  <span style="margin-left: 10vw; color: #f82a2a; font-size: 18px;"> Off <i class="fas fa-chevron-right" style="color: black; margin-left: 8px; font-size: 18px;"></i> </span> </p> </div>
+  </div>
+
 </div>
 
+<body>
 
+  <div id="third" style="height: 100vh; width: 110vw; position: fixed;background-color:; border: 1px solid black; top: 0;"></div>
 
+  <button id="toggle" style="height: 200px;width: 100vw; position: absolute; top: 500px; opacity: 0;">Hide THIRD div</button>
+</body>
+
+<script type="text/javascript">
+
+const targetDiv = document.getElementById("third");
+const btn = document.getElementById("toggle");
+btn.onclick = function () {
+  if (targetDiv.style.display !== "none") {
+    targetDiv.style.display = "none";
+  } else {
+    targetDiv.style.display = "block";
+  }
+};
+
+</script>
+ <div style="height: 200px;"></div>
 
 <div class="menubalk">
 
