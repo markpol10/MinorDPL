@@ -577,4 +577,27 @@ button:hover {
   padding: 16px;
   margin-bottom: 100px;
 }
+
+.productText1 {
+  margin-left: 20px;
+  color: black;
+}
+}
+
+/* order 1 */
+
+.orderInfo {
+  height: 350px;
+  margin-top: 3vh;
+  border: 1px solid #e3e3e3;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 6px 12px -8px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 6px 12px -8px rgba(0,0,0,0.75);
+  box-shadow: 0px 6px 12px -8px rgba(0,0,0,0.75);
+  display: flex;
+  align-items: center;
+}
+
+.productTextOrder1 {
+  margin-left: 50px;
 }
