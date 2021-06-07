@@ -1,59 +1,74 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title> Profiel </title>
 
+	<title> Overzicht </title>
 
+	<link rel="stylesheet" type="text/css" href="stylesheets/style-messages.css">
   <link rel="stylesheet" type="text/css" href="style.css">
 
 <!-- Fontawesome & fonts -->
-  <script src="https://kit.fontawesome.com/356e213cd3.js" crossorigin="anonymous"></script>
+	<script src="https://kit.fontawesome.com/356e213cd3.js" crossorigin="anonymous"></script>
 
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">  
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-
-<!-- Bootstap -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-
-
-
-<!DOCTYPE html>
-<html>
-<head>
-  <title> Profiel </title>
-
-
-  <link rel="stylesheet" type="text/css" href="style.css">
-
-<!-- Fontawesome & fonts -->
-  <script src="https://kit.fontawesome.com/356e213cd3.js" crossorigin="anonymous"></script>
-
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">  
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
 <!-- Bootstap -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
+<!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
 
 <body style="background-color: #F6FCFC;">
 
 
 <div class="messages-text-top">
-  <p style="color: #369637; font-size: 50px; font-weight: 600;"> Overzicht </p>
+		
+	<p style="color: #369637; font-size: 50px; font-weight: 600;">Overzicht</p>
+
+</div>
+	
+<div id="divParent2" class="parentDiv mt-5">
+  <div id="child1" class="childDiv1">
+    <h2 style="color: #369637;" class="mesgtxt">Mobiel</h2>
+    <hr class="testhr1" style="height: 4px; background-color: #369637; border-radius: 4px;">
+  </div>
+  <div id="child2" class="childDiv2">
+    <h2 class="msgttxt2">Thuis</h2>
+    <hr class="testhr2" style="display: none; height: 4px; background-color: #369637; border-radius: 4px;">
+  </div>
 </div>
 
+<script type="text/javascript">
 
+	$('.childDiv1').click(function() {
 
+	 	$(this).parent().find('.testhr2').css('display', 'none');
+	 	$(this).parent().find('.testhr1').css('display', 'block');
+	 	$(this).parent().find('.msgttxt2').css('color', 'black');
+	 	$(this).parent().find('.mesgtxt').css('color', 'green');
+	 	
+	 	
+
+});
+
+	$('.childDiv2').click(function() {
+
+	 	$(this).parent().find('.testhr1').css('display', 'none');
+	 	$(this).parent().find('.testhr2').css('display', 'block');
+	 	$(this).parent().find('.mesgtxt').css('color', 'black');
+	 	$(this).parent().find('.msgttxt2').css('color', 'green');
+	 	
+
+});
+
+</script>
 
 
 <div class="menubalk">
@@ -86,6 +101,58 @@
 
 </div>
 
+
+
+<div class="container">
+	<div class="row">
+	  <div class="col-sm orderInfo">
+		
+		<img src="/icons/iconkpn.png" alt="KPN logo" width="20%" height="= 50%"></i> 
+
+		<div class="productTextOrder1"> 
+			<h3 style="font-size: 16px;  color: #369637; font-weight: 500;">van: info@kpn.nl <br>op: 10-06-2021 om 16:43</h3>
+            <h3 style="font-size: 16px; font-weight: 500;">De monteur komt volgende week langs.</h3><br>
+			<p style="font-size: 11px; "> <span style="font-weight: 500; color: black;"> Beste Jesper,<br><br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt suscipit qui laborum nam ex quibusdam, eveniet repudiandae aperiam nobis voluptas et! Nulla consequatur repellendus sint, explicabo reprehenderit accusamus consectetur dignissimos?<br><br> Met vriendelijke groeten,<br><br>KPN</p>
+			
+		  </div>
+        </div>
+  </div>
+</div>
+
+<div class="container">
+	<div class="row">
+	  <div class="col-sm orderInfo">
+		
+		<img src="/icons/iconkpn.png" alt="KPN logo" width="20%" height="= 50%"></i> 
+
+		<div class="productTextOrder1"> 
+			<h3 style="font-size: 16px;  color: #369637; font-weight: 500;">van: info@kpn.nl <br>op: 10-06-2021 om 16:43</h3>
+            <h3 style="font-size: 16px; font-weight: 500;">De monteur komt volgende week langs.</h3><br>
+			<p style="font-size: 11px; "> <span style="font-weight: 500; color: black;"> Beste Jesper,<br><br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt suscipit qui laborum nam ex quibusdam, eveniet repudiandae aperiam nobis voluptas et! Nulla consequatur repellendus sint, explicabo reprehenderit accusamus consectetur dignissimos?<br><br> Met vriendelijke groeten,<br><br>KPN</p>
+			
+		  </div>
+        </div>
+  </div>
+</div>
+
+<div class="container">
+	<div class="row">
+	  <div class="col-sm orderInfo">
+		
+		<img src="/icons/iconkpn.png" alt="KPN logo" width="20%" height="= 50%"></i> 
+
+		<div class="productTextOrder1"> 
+			<h3 style="font-size: 16px;  color: #369637; font-weight: 500;">van: info@kpn.nl <br>op: 10-06-2021 om 16:43</h3>
+            <h3 style="font-size: 16px; font-weight: 500;">De monteur komt volgende week langs.</h3><br>
+			<p style="font-size: 11px; "> <span style="font-weight: 500; color: black;"> Beste Jesper,<br><br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt suscipit qui laborum nam ex quibusdam, eveniet repudiandae aperiam nobis voluptas et! Nulla consequatur repellendus sint, explicabo reprehenderit accusamus consectetur dignissimos?<br><br> Met vriendelijke groeten,<br><br>KPN</p>
+			
+		  </div>
+        </div>
+  </div>
+</div>
 
 
 </body>

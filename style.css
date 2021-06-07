@@ -659,7 +659,7 @@ button:hover {
 }
 }
 
-/* order 1 */
+/* Order 1,2 en 3 pagina */
 
 .orderInfo {
   height: 350px;
@@ -675,4 +675,33 @@ button:hover {
 
 .productTextOrder1 {
   margin-left: 50px;
+}
+
+/* Facturen pagina */
+
+.facturenTekstOpen {
+  margin-left: 45px;
+  font-size: 16px;  
+  color: #369637; 
+  font-weight: 500;
+}
+
+.facturenTekstBetaald {
+  margin-left: 45px;
+  margin-top: 25px;
+  font-size: 16px;  
+  color: #369637; 
+  font-weight: 500;
+}
+
+/* individueel berichten pagina */
+
+/*.berichtenOnderwerp {
+  margin-left: 10px;
+  font-size: 16px;  
+  font-weight: 500;
+}*/
+
+.emailTekst {
+  margin-left: 20px;
 }
