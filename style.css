@@ -666,8 +666,12 @@ button:hover {
 
 /* individueel berichten pagina */
 
-.berichtenOnderwerp {
+/*.berichtenOnderwerp {
   margin-left: 10px;
   font-size: 16px;  
   font-weight: 500;
+}*/
+
+.emailTekst {
+  margin-left: 20px;
 }
