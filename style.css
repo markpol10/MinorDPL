@@ -703,5 +703,8 @@ button:hover {
 }*/
 
 .emailTekst {
-  margin-left: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 50px;
+
 }
