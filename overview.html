@@ -33,42 +33,6 @@
 	<p style="color: #369637; font-size: 50px; font-weight: 600;">Overzicht</p>
 
 </div>
-	
-<div id="divParent2" class="parentDiv mt-5">
-  <div id="child1" class="childDiv1">
-    <h2 style="color: #369637;" class="mesgtxt">Mobiel</h2>
-    <hr class="testhr1" style="height: 4px; background-color: #369637; border-radius: 4px;">
-  </div>
-  <div id="child2" class="childDiv2">
-    <h2 class="msgttxt2">Thuis</h2>
-    <hr class="testhr2" style="display: none; height: 4px; background-color: #369637; border-radius: 4px;">
-  </div>
-</div>
-
-<script type="text/javascript">
-
-	$('.childDiv1').click(function() {
-
-	 	$(this).parent().find('.testhr2').css('display', 'none');
-	 	$(this).parent().find('.testhr1').css('display', 'block');
-	 	$(this).parent().find('.msgttxt2').css('color', 'black');
-	 	$(this).parent().find('.mesgtxt').css('color', 'green');
-	 	
-	 	
-
-});
-
-	$('.childDiv2').click(function() {
-
-	 	$(this).parent().find('.testhr1').css('display', 'none');
-	 	$(this).parent().find('.testhr2').css('display', 'block');
-	 	$(this).parent().find('.mesgtxt').css('color', 'black');
-	 	$(this).parent().find('.msgttxt2').css('color', 'green');
-	 	
-
-});
-
-</script>
 
 <div class="container contentKlein" >
   <div class="row" style="justify-content: space-between; display: flex; text-align: center;">
@@ -81,7 +45,7 @@
 	    		+31621554983 <br>      
     	</div>
 
-    	<div>
+    	<div class="tekstOverviewBox">
     		<p style="font-weight: bold; margin-top: 10px;	">Alles in 1</p>
     		<div style="width: 40%; float: right; margin-top: -10px;">
     			<p>Einde abonnement</p>
@@ -97,18 +61,18 @@
 
     <a href="overview.html" class="col-sm-3 content2" style="color: black;">
     	<div> <img src="icons/Graph2.png"></div>
-    	<div> <p style="text-align: left; margin-left: 25px; font-size: 14px; margin-bottom: 5px;"> <span style="font-weight: bold;">Data</span> <br> Je hebt deze maand <b>6GB</b> gebruikt, je hebt dus nog <b>14GB</b> restrerend.</p> 
+    	<div> <p style="text-align: left; margin-left: 25px; font-size: 13px; margin-bottom: 5px;"> <span style="font-weight: bold;">Data</span> <br> Je hebt deze maand <b>6GB</b> gebruikt, je hebt dus nog <b>14GB</b> restrerend.</p> 
     </div> </a>
 
     <div class="col-sm-3 content2" style="color: black;">
     	<div> <img src="icons/Graph1.png"></div>
-    	<div> <p style="text-align: left; margin-left: 25px; font-size: 14px; margin-bottom: 5px;"> <span style="font-weight: bold;">Minuten</span> <br> Je hebt deze maand <b>100 minuten</b> gebruikt, je hebt dus nog <b>900 minuten</b> restrerend.</p> 
+    	<div> <p style="text-align: left; margin-left: 25px; font-size: 13px; margin-bottom: 5px;"> <span style="font-weight: bold;">Minuten</span> <br> Je hebt deze maand <b>100 minuten</b> gebruikt, je hebt dus nog <b>900 minuten</b> restrerend.</p> 
     </div> 
   </div>
 
     <div class="col-sm-3 content2" style="color: black;">
     	<div> <img src="icons/Graph3.png"></div>
-    	<div> <p style="text-align: left; margin-left: 25px; font-size: 14px; margin-bottom: 5px;"> <span style="font-weight: bold;">Roaming buiten de EU</span> <br> Je hebt deze maand <b>0MB</b> gebruikt, je hebt dus nog <b>500MB</b> restrerend.</p> 
+    	<div> <p style="text-align: left; margin-left: 25px; font-size: 13px; margin-bottom: 5px;"> <span style="font-weight: bold;">Roaming buiten de EU</span> <br> Je hebt deze maand <b>0MB</b> gebruikt, je hebt dus nog <b>500MB</b> restrerend.</p> 
     </div> 
   </div>
 
