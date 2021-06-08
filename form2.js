@@ -46,12 +46,14 @@
         if(user){
 
             var email = user.email;
-            alert("Actieve gebruiker " + email);
-            window.location.href = "index.html";
+
         }
         else{
 
-
+            alert("Geen actieve gebruiker");
+            window.location.href = "loginpage.html";
+        
+        
         }
 
     });
