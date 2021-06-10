@@ -97,12 +97,7 @@ body {
   display: flex;
 }
 
-.inputvideo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 
-}
 
 .testrow {
   height: 100px;
