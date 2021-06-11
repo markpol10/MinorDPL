@@ -12,6 +12,7 @@
   <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-auth.js"></script>
 
   <script src="form2.js"></script> 
+  <script src="logOut.js"></script>
 
 <!-- Fontawesome & fonts -->
   <script src="https://kit.fontawesome.com/356e213cd3.js" crossorigin="anonymous"></script>
@@ -56,20 +57,20 @@
   
   <div class="row">
 
-    <div class="col-sm-4 mt-3 contentsettings" style="padding: 0;" >
+    <a href="orderHistory.html" class="col-sm-4 mt-3 contentsettings" style="padding: 0; color: black;">
       <div class="settingsvakje"> <i class="fas fa-history fa-2x" style="color: #383838"></i> </div>
       <div class="settingstext ml-3"> <p> Bestelgeschiedenis </p> </div>
-    </div>
+    </a>
 
-    <div class="col-sm-4 mt-3 contentsettings" style="padding: 0;">
+    <a href="invoices.html" class="col-sm-4 mt-3 contentsettings" style="padding: 0; color: black;">
       <div class="settingsvakje"> <i class="fas fa-receipt fa-2x" style="color: #383838"></i> </div>
       <div class="settingstext ml-3"> <p> Facturen </p> </div>
-    </div>
+    </a>
 
-    <div class="col-sm-4 mt-3 contentsettings" style="padding: 0;">
+    <a href="overview.html" class="col-sm-4 mt-3 contentsettings" style="padding: 0; color: black;">
       <div class="settingsvakje"> <i class="fas fa-chart-pie fa-2x" style="color: #383838"></i> </div>
       <div class="settingstext ml-3"> <p> Abonnementen </p> </div>
-    </div>
+    </a>
 
   </div>
 
@@ -84,7 +85,7 @@
       <div class="settingsvakje"> <i class="fas fa-cog fa-2x" style="color: #383838"></i> </div>
       <div class="settingstext ml-3"> <p> Instellingen </p> </div>
     </a>
-    <div class="col-sm-4 mt-3 contentsettings" style="padding: 0; margin-bottom: 150px;">
+    <div class="col-sm-4 mt-3 contentsettings" style="padding: 0; margin-bottom: 150px;" onclick="signOut()">
       <div class="settingsvakje"> <i class="fas fa-sign-out-alt fa-2x" style="color: #383838"></i> </div>
       <div class="settingstext ml-3"> <p> Uitloggen </p> </div>
     </div>
